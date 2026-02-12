@@ -2,6 +2,8 @@
 
 A multi-turn social engineering evaluation that simulates phishing attacks for AI safety research using the [Inspect AI](https://inspect.aisi.org.uk/) framework.
 
+Data is not included to avoid contamination.  A full threat model and methodology for data generation are included.  Contact us if you are interested in proprietary datasets or evaluation services.
+
 ## Overview
 
 The evaluation simulates conversations between:
@@ -53,6 +55,10 @@ pip install -e .
 ```
 
 ## Configuration
+
+### Dataset
+
+By default, the eval looks for a dataset in data/generated_dataset.json.  Most coding agents should be able to generate a dataset based on the information in threat_model.md and data_generation.md
 
 ### API Keys
 
